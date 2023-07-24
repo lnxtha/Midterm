@@ -50,6 +50,6 @@ jobs:
           # Unit test
           docker run -d -p 8080:8080 --name my_app $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           docker ps
-          echo "Pause for 10 seconds to let container start"
+          echo "Pause for 10 seconds to let container starts"
           sleep 10
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
