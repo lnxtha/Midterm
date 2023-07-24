@@ -8,8 +8,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app.kubernetes.io/name: flask-app
-      app.kubernetes.io/component: greeting
+      app: flask-app
+      component: greeting
   template:
     metadata:
       labels:

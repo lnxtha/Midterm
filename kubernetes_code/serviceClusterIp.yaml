@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     app: flask-app
-  type: frontend
+  type: ClusterIP
   ports:
     - port: 80
       targetPort: 30000
